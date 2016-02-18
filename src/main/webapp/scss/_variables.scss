@@ -1,0 +1,49 @@
+/* 
+    Created on : Feb 18, 2015, 11:41:33 PM
+    Author     : Miroslav Tamas
+*/
+//
+// Variables
+// --------------------------------------------------
+
+
+//== Colors
+//
+//## Brand colors for use across Bootstrap.
+
+//== Scaffolding
+//
+//## Settings for some of the most global styles.
+
+//** Background color for `<body>`.
+$header-bg:                  #2e2e2e;
+$body-bg:                    #edecec;
+$footer-bg:                  #212121;
+
+//** Global text color on `<body>`.
+//$text-color:            $gray-dark;
+$header-text-color:          #9c9c9c;
+$footer-text-color:          #9c9c9c;
+
+//** Global textual link color.
+$link-color:                 #000;
+$header-link-color:          lighten($header-text-color, 20%);
+$footer-link-color:          lighten($footer-text-color, 20%);
+
+//** Link hover color set via `darken()` function.
+$link-hover-color:           darken($link-color, 20%);
+$header-link-hover-color:    lighten($header-link-color, 100%);
+$footer-link-hover-color:    lighten($footer-link-color, 100%);
+
+//** Link hover decoration.
+//$link-hover-decoration: underline;
+
+
+//== Typography
+//
+//## Font, line-height, and color for body text, headings, and more.
+
+$font-family-sans-serif:  "Roboto Condensed", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+$font-family-serif:       "Georgia", "Times New Roman", "Times", serif;
+$font-family-monospace:   "Menlo", "Monaco", "Consolas", "Courier New", monospace;
+

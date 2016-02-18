@@ -1,0 +1,35 @@
+#page-head {
+
+    background: $header-bg !important;
+    
+    #header, #breadcrumbs {
+        background: $header-bg !important;
+    }
+    
+    #header {
+        padding: 15px 0 0 0;
+        height: 80px;
+    }
+    
+    ul#breadcrumbs {
+        li {
+            
+            &:hover {
+                background: none;
+            }
+            
+            a {
+                text-transform: uppercase;
+                font-weight: normal;
+                font-size: 13px;
+                color: $header-link-color;
+                
+                &:hover {
+                    color: $header-link-hover-color;
+                }
+            }
+            
+        }
+    }
+
+}

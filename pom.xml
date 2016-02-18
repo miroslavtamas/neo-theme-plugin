@@ -11,11 +11,11 @@
     </parent>
     
     <groupId>org.jenkins-ci.plugins</groupId>
-    <artifactId>jenkins-metro-theme</artifactId>
+    <artifactId>neo-theme</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>hpi</packaging>
 
-    <name>METRO Theme Plugin</name>
+    <name>Neo Theme Plugin</name>
     <description>TODO</description>
     <url>https://wiki.jenkins-ci.org/display/JENKINS/TODO+Plugin</url>
     
@@ -41,26 +41,31 @@
      <url>http://github.com/jenkinsci/${project.artifactId}-plugin</url>
    </scm>
     -->
+    
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.jenkins-ci.tools</groupId>
+                <artifactId>maven-hpi-plugin</artifactId>
+                <configuration>
+                    <warSourceExcludes>**/*.scss,scss</warSourceExcludes>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+    
     <repositories>
         <repository>
             <id>repo.jenkins-ci.org</id>
             <url>http://repo.jenkins-ci.org/public/</url>
         </repository>
     </repositories>
+    
     <pluginRepositories>
         <pluginRepository>
             <id>repo.jenkins-ci.org</id>
             <url>http://repo.jenkins-ci.org/public/</url>
         </pluginRepository>
     </pluginRepositories>
-    <!-- If you want to depend on other plugins:
-    <dependencies>
-      <dependency>
-        <groupId>org.jenkins-ci.plugins</groupId>
-        <artifactId>credentials</artifactId>
-        <version>1.9.4</version>
-      </dependency>
-    </dependencies>
-    -->
 
 </project>

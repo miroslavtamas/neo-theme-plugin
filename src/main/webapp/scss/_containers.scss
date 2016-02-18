@@ -1,0 +1,20 @@
+.pane-frame, #tasks, #main-panel {
+
+    background: #fff !important;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+    margin-bottom: 30px;
+
+    border-radius: 0px !important;
+
+    * {
+        border-radius: 0px !important;
+        background: #fff !important;
+    }
+
+}
+
+#main-panel {
+    margin-top: 25px !important;
+    margin-right: 15px !important;
+    margin-bottom: 140px !important;
+}

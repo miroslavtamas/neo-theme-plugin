@@ -1,5 +1,5 @@
 <?jelly escape-by-default='true'?>
 <j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler" xmlns:d="jelly:define" xmlns:l="/lib/layout" xmlns:t="/lib/hudson" xmlns:f="/lib/form">
-    <link type="text/css" rel="stylesheet" href="${resURL}/plugin/jenkins-metro-theme/metro-theme.css" />
+    <link type="text/css" rel="stylesheet" href="${resURL}/plugin/neo-theme/neo-theme.css" />
     <script type="text/javascript" src="${resURL}/plugin/JENKINSMETROTHEME/doony.min.js"></script>
 </j:jelly>

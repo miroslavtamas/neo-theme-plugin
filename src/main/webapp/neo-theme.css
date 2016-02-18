@@ -1,0 +1,55 @@
+/* 
+    Created on : Feb 18, 2015, 11:41:33 PM
+    Author     : Miroslav Tamas
+*/
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300italic,700,700italic,400italic,300&subset=latin,vietnamese,cyrillic,latin-ext,greek-ext,greek,cyrillic-ext);
+#page-head {
+  background: #2e2e2e !important; }
+  #page-head #header, #page-head #breadcrumbs {
+    background: #2e2e2e !important; }
+  #page-head #header {
+    padding: 15px 0 0 0;
+    height: 80px; }
+  #page-head ul#breadcrumbs li:hover {
+    background: none; }
+  #page-head ul#breadcrumbs li a {
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 13px;
+    color: #cfcfcf; }
+    #page-head ul#breadcrumbs li a:hover {
+      color: white; }
+
+.pane-frame, #tasks, #main-panel {
+  background: #fff !important;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+  margin-bottom: 30px;
+  border-radius: 0px !important; }
+  .pane-frame *, #tasks *, #main-panel * {
+    border-radius: 0px !important;
+    background: #fff !important; }
+
+#main-panel {
+  margin-top: 25px !important;
+  margin-right: 15px !important;
+  margin-bottom: 140px !important; }
+
+footer {
+  background-color: #212121;
+  padding: 2.5em 0 1em; }
+  footer * {
+    color: #9c9c9c;
+    font-size: 12px !important; }
+  footer a {
+    color: #cfcfcf !important;
+    text-decoration: none !important; }
+    footer a:hover {
+      color: white !important; }
+
+html, body {
+  background-color: #edecec; }
+
+body, table, form, input, td, th, p, textarea, select {
+  font-family: "Roboto Condensed", "Helvetica Neue", "Helvetica", Arial, sans-serif; }
+
+/*# sourceMappingURL=neo-theme.css.map */

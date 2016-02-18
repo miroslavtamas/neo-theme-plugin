@@ -21,7 +21,7 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
-package org.jenkinsci.plugins.jenkinsmetrotheme;
+package org.jenkinsci.plugins.neotheme;
 
 import hudson.Extension;
 import hudson.model.PageDecorator;
@@ -32,6 +32,6 @@ import hudson.model.PageDecorator;
  * @since 0.1
  */
 @Extension
-public class MetroThemeDecorator extends PageDecorator {
+public class NeoThemeDecorator extends PageDecorator {
     
 }
